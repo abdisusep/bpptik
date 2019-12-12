@@ -1,0 +1,165 @@
+/*
+	Created : @sspsptn
+	Pelatihan Junior Programmer BPPTIK
+*/
+
+body{
+	margin:0;
+	font-family: 'Nunito', sans-serif;
+	background-color: lightgrey;
+}
+
+header.header{
+	width: 80%;
+	margin:0 auto;
+}
+
+h2.title{
+	position: absolute; 
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+img.bpptik{
+	right: 200px;
+	position: absolute; 
+	margin-top: 50px;
+}
+
+div.banner{
+	padding: 0px;
+	border-radius: 1px;
+	margin-bottom: 20px;
+}
+
+div.jwp{
+	border-radius: 1px;
+	background-color: white;
+}
+
+div.jwp h4{
+	padding: 0px;
+	margin:10px 0px 8px 10px;
+}
+
+.running-text{
+	width: 650px;
+}
+
+div.section{
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+
+div.sidebar{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	border-radius: 1px;
+	padding-bottom: 90px;
+	background-color:rgb(39, 27, 24);
+}
+
+ul.menu{
+	list-style: none;
+}
+
+ul.menu li{
+	margin: 10px;
+	padding: 5px;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+
+ul.menu li.active{
+	margin: 10px;
+	padding: 5px;
+	margin-right: 20px;
+	margin-left: -20px;
+	background-color:rgb(60, 60, 60);
+}
+
+ul.menu li:hover{
+	margin: 10px;
+	padding: 5px;
+	transition: 0.3s;
+	margin-left: -20px;
+	margin-right: 20px;
+	border-radius: 1px;
+	background-color:rgb(60, 60, 60);
+}
+
+ul.menu li a{
+	color: #ffffff;
+	padding: 5px;
+	text-decoration: none;
+}
+
+div.row{
+	width: 100%;
+}
+
+div.page-title{
+	font-size: 22px;
+	font-weight: 550;
+	margin-bottom: 5px;
+}
+
+div.content{
+	width: 76%;
+	float: left;
+	padding: 15px;
+	margin-top:20px; 
+	margin-left: 10px;
+	border-radius: 1px;
+	background-color: #ffffff;
+}
+
+.line{
+	border:1px solid rgb(240, 240, 240);
+	margin-bottom: 20px;
+}
+
+img.foto-profil{
+	float: left;
+}
+
+div.text-profile{
+	text-align: justify;
+	margin-left: 140px; 
+	padding-bottom: 100px;
+}
+
+div.gallery{
+	width: 23%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+a.sosmed{
+	color: #111111;
+	text-decoration: none;
+}
+
+a.sosmed:hover{
+	color: #111111;
+	transition: 0.5s;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+footer.footer{
+	width: 80%;
+	margin:0 auto;
+	display: grid;
+}
+
+div.content-footer{
+	color: #ffffff;
+	padding: 20px;
+	margin-top:20px;
+	border-radius: 1px;
+	background-color:rgb(39, 27, 24);
+}
